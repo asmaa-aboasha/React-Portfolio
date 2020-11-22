@@ -8,6 +8,6 @@ const Headline = () => {
             <h5 id="subheadline">Hi! I'm Asmaa Aboasha. I'm a Full Stack Web Developer. I code, design, and build things on the web.</h5>
         </div>
     );
-}
+};
 
 export default Headline;
