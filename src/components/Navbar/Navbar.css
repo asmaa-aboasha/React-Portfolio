@@ -1,0 +1,36 @@
+.navbar {
+    width: 98%;
+    background: white;
+}
+
+.navbar-navigation {
+    display: center;
+    height: 100%;
+    align-items: center;
+}
+
+@media screen and (max-width:575px) {
+    .navbar-navigation {
+        flex-direction: column;
+    }
+}
+
+.navbar-items ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-items li {
+    padding: 0 1rem;
+}
+
+.items {
+    margin-top: 30px;
+    margin-left: 40px;
+    display: block;
+}
+
+.items a {
+    color: #4d1635;
+    font-size: 16px;
+}
